@@ -1,0 +1,51 @@
+h1 {
+  text-align: center;
+  font-size: 40px;
+}
+
+.buttonholder {
+  text-align: center;
+}
+
+body {
+  color: rgb(0, 0, 0);
+  background-color: rgb(99, 99, 99);
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+#result {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#coin {
+  visibility: hidden;
+}
+
+#coinImg {
+  width: 200px;
+  height: 200px;
+}
+
+.flip {
+  animation: myanimation 0.2s infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes myanimation {
+  0% {
+    width: 200px;
+  }
+  50% {
+    width: 0px;
+  }
+  100% {
+    width: 200px;
+  }
+}
+
+/* .flip:hover {
+} */
